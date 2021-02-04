@@ -1,0 +1,23 @@
+<template>
+  <div>
+    <h2>Chart.js</h2>
+    <bar-chart></bar-chart>
+    <line-chart> </line-chart>
+  </div>
+</template>
+
+<script>
+import BarChart from './components/BarChart.vue'
+import LineChart from './components/LineChart.vue'
+
+export default {
+  // 컴포넌트 속성 && 인스턴스 옵션이 들어가야 함.
+  components: {
+    BarChart,
+    LineChart
+  },
+};
+</script>
+
+<style>
+</style>
